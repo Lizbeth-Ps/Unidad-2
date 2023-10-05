@@ -1,6 +1,6 @@
 # Unidad-2
 # Actividad 1: Ejecución de tutoriales juego en 3D Fase 2
-![Logo de Unity](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1dc0093c-8e2a-463e-af04-f1205c26dc66/dg5bv02-f66a2d31-2223-4533-9919-cc72bc1a8e1a.png/v1/fill/w_1000,h_600/unity_3d_logo_by_zairiq_dg5bv02-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjAwIiwicGF0aCI6IlwvZlwvMWRjMDA5M2MtOGUyYS00NjNlLWFmMDQtZjEyMDVjMjZkYzY2XC9kZzVidjAyLWY2NmEyZDMxLTIyMjMtNDUzMy05OTE5LWNjNzJiYzFhOGUxYS5wbmciLCJ3aWR0aCI6Ijw9MTAwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Zf6iTGmz_cUQBiPkVxkPntYURfNexRZ1WpW3lME_oxM)
+![Logo de Unity](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-ijheo&psig=AOvVaw3azziKG0N4M_Q1cfPCLETy&ust=1696576379995000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIClv9Wt3oEDFQAAAAAdAAAAABAE)
 
 
 ## Lección 2 Basic GamePlay
