@@ -1,6 +1,6 @@
 # Unidad-2
 # Actividad 1: Ejecución de tutoriales juego en 3D Fase 2
-![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/unity.png?raw=true)
+![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/unity2.png?raw=true)
 
 
 ## Lección 2 Basic GamePlay
