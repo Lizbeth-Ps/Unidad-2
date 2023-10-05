@@ -4,7 +4,7 @@
 
 
 ## Lección 2 Basic GamePlay
-![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/leccion%202.1.png?raw=true)
+![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/leccion%202.2.png?raw=true)
 
 ## Lección 3 Sound and Efffects
 ![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/leccion%203.png?raw=true)
