@@ -1,6 +1,6 @@
 # Unidad-2
 # Actividad 1: Ejecución de tutoriales juego en 3D Fase 2
-![Logo de Unity](https://upload.wikimedia.org/wikipedia/commons/5/55/Unity3D_Logo.jpg)
+![Logo de Unity](https://s26.q4cdn.com/977690160/files/design/U_Logo_White_RGB_1C.png)
 
 
 ## Lección 2 Basic GamePlay
