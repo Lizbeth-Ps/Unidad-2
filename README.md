@@ -1,6 +1,6 @@
 # Unidad-2
 # Actividad 1: Ejecución de tutoriales juego en 3D Fase 2
-![Logo de Unity](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fen%2Ffree-png-ijheo&psig=AOvVaw3azziKG0N4M_Q1cfPCLETy&ust=1696576379995000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCIClv9Wt3oEDFQAAAAAdAAAAABAE)
+![Logo de Unity](https://1000logos.net/wp-content/uploads/2021/10/Unity-logo.png)
 
 
 ## Lección 2 Basic GamePlay
