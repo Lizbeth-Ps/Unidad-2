@@ -25,5 +25,7 @@
 ## Soccer Scripting. 
 ## Whack-a-Food. 
 
+# Tablero de Trello
+[TABLERO DE TRELLO](https://trello.com/invite/b/bhfM0uBR/ATTI5c01d6e25ee3a5aaba7030db5250cbfbD8EE8B86/sprint-0 "TRELLO")
 
 # Actividad 2: Videojuego
