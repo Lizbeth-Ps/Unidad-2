@@ -5,6 +5,7 @@
 
 
 ## Lección 2 Basic GamePlay
+[Lección 2 Basic GamePlay](Leccion%202)
 
 ![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/leccion%202.2.png?raw=true)
 
