@@ -38,6 +38,9 @@ En esta Unidad, programarás un juego de combate Sumo tipo arcade cuyo objetivo 
 En esta Unidad programarás un juego para probar los reflejos del jugador, en el cual el objetivo es hacer clic y destruir objetos lanzados por el aire aleatoriamente antes de que caigan y desaparezcan por la parte inferior de la pantalla. Al crear este prototipo, aprenderás a implementar una interfaz de usuario (UI) en tus proyectos. Agregarás una pantalla de título con un menú de selección de dificultad que controlará el nivel de desafío de la jugabilidad, agregarás un monitor de puntaje que dará seguimiento a los puntos que ha obtenido el jugador y agregarás una pantalla de Fin del juego que permitirá a los jugadores reiniciar y intentar de nuevo. Al aprender estas habilidades, podrás crear una experiencia «jugable» completa que el usuario puede disfrutar de inicio a fin sin tener que reiniciar la aplicación para intentarlo de nuevo.
 
 # Desafíos
+## Play Fetch
+
+![Videos](https://drive.google.com/drive/folders/1lZ6NVz4i9bZMyZt3dD945VYZco6eBFCy?usp=sharing)
 ## Balloons, Bombs & Booleans.
 ## Soccer Scripting. 
 ## Whack-a-Food. 
