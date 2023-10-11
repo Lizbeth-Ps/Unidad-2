@@ -39,8 +39,8 @@ En esta Unidad programarás un juego para probar los reflejos del jugador, en el
 
 # Desafíos
 ## Play Fetch
+[Videos Evidencia](https://drive.google.com/drive/folders/1lZ6NVz4i9bZMyZt3dD945VYZco6eBFCy?usp=sharing)
 
-![Videos](https://drive.google.com/drive/folders/1lZ6NVz4i9bZMyZt3dD945VYZco6eBFCy?usp=sharing)
 ## Balloons, Bombs & Booleans.
 ## Soccer Scripting. 
 ## Whack-a-Food. 
