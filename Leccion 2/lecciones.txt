@@ -1,5 +1,0 @@
-docker system prune --all -ELIMA TODO LOS CONTENEDORES E IMAGENES ASOCIADAS AL CONTENEDOR
-
-docker volume prune --ELIMAR TODOS LOS VOLUMENES
-
-Cada servicio genera una imagen y un contenedor
