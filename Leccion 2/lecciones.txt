@@ -1,0 +1,98 @@
+docker system prune --all -ELIMA TODO LOS CONTENEDORES E IMAGENES ASOCIADAS AL CONTENEDOR
+
+docker volume prune --ELIMAR TODOS LOS VOLUMENES
+
+Cada servicio genera una imagen y un contenedor
+
+
+docker compose -f stack-billing.yml up -d
+
+docker system prune --all --ELIMAR TODOS LOS CONTENDORES
+
+docker image ls --LISTAR LAS IMAGENES
+
+docker compose -f stack-billing.yml up -d --CREAR LOS CONTENDORES
+
+sudo ls -ls postgres_data/ --LISTAR LOS PERMISO
+
+VERIFICAR BASE DE DATOS EL LOCALHOST:9090
+SYSTEM POSTGRES
+SERVER postgres_db
+USERNAME postgres
+PASSWORD qwerty
+DATABASE postgres
+
+docker inspect postgres ---INSPECCIONAR EL CONTENEDOR DE POSTGRES
+
+CONEXION SSH
+
+docker exec -it postgres sh --CONEXION SSH
+
+nano docker-entrypoint-initdb.d
+
+
+docker compose -f stack-billing.yml stop --PARAR TODOS LOS CONTENEDORES
+
+
+docker logs postgres --VER LOS LOGS (nombre del contenedor)
+
+
+
+
+
+
+CLASE 16/10/2023
+
+chmod 777 ./dbfiles/ ---cambiar permisos
+
+tecnologias utilizadas
+docker engine
+docker compose --orquestacion
+Dockerfile ---crear imagenes 
+docker desktop --integracion de docker compose, docker file (construccion de imagenes y contenedores)
+
+
+--------------------------------
+modificar el archivo dockerfile de angualar
+agregar un dockerfile en java
+
+
+
+
+
+
+
+
+
+
+
+
+
+BACK LOCALHOST:8080
+
+
+
+
+docker stats --ver las estadisticas
+limitar la CPU Y LA MEMORIA 
+
+
+
+docker compose -f stack-billing.yml up -d --force-recreate
+docker compose -f stack-billing.yml up -d
+
+
+
+docker stop $(docker ps -q) --DETENER TODOS LOS CONTENEDORES
+docker rm $(docker ps -q) --ELIMINAR TODOS LOS CONETENDORES 
+
+
+docker image rm billingapp --ELIMINAR IMAGENES
+
+
+
+
+
+
+
+
