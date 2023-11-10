@@ -20,8 +20,13 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Nivel1");
     }
+    public void LoadNivel2()
+    {
+        SceneManager.LoadScene("Nivel2");
+    }
     public void Salir()
     {
         Application.Quit();
     }
+
 }
