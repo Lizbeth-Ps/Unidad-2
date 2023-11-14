@@ -13,7 +13,7 @@ public class GameManegerScript : MonoBehaviour
 
     public void ReturnToMenu()
     {
-        // Carga la escena del menú principal. Asegúrate de que el nombre de la escena sea correcto.
+        // Carga la escena del menï¿½ principal. Asegï¿½rate de que el nombre de la escena sea correcto.
         SceneManager.LoadScene("Menu");
     }
 
