@@ -25,6 +25,11 @@ public class ManagerGame : MonoBehaviour
 
     public void ReturnToMenu()
     {
+        Time.timeScale = 1.0f; // Asegúrate de restablecer la escala del tiempo
+
+        // Reinicia el temporizador antes de cargar la escena
+        timerScript.RestartTimer();
+
         SceneManager.LoadScene("PInicio");
     }
 
@@ -34,6 +39,10 @@ public class ManagerGame : MonoBehaviour
 
     public void Nivel1Return()
     {
+        Time.timeScale = 1.0f; // Asegúrate de restablecer la escala del tiempo
+
+        // Reinicia el temporizador antes de cargar la escena
+        timerScript.RestartTimer();
         // Carga la escena "Nivel1" cuando el jugador quiera salir.
         SceneManager.LoadScene("Nivel1");
     }
