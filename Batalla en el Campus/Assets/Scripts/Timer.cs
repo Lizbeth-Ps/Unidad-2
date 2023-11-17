@@ -2,18 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI timerText;
     static float timer;
-    public float gameDuration = 120.0f; // Duración del juego en segundos (2 minutos)
+    public float gameDuration = 120.0f; // Duraciï¿½n del juego en segundos (2 minutos)
     public GameObject gameOverScreen; // Panel GameOverScreen
+
+    
 
     void Start()
     {
+        
         timer = 0f; // Inicializa el contador de tiempo en cero al comienzo del juego
-        // Asegúrate de que el panel GameOverScreen esté desactivado al inicio del juego
+        // Asegï¿½rate de que el panel GameOverScreen estï¿½ desactivado al inicio del juego
         gameOverScreen.SetActive(false);
     }
 
@@ -32,9 +37,18 @@ public class Timer : MonoBehaviour
         }
         else
         {
-            // El tiempo ha terminado, aquí puedes mostrar el panel GameOverScreen y pausar el juego.
+            // El tiempo ha terminado, aquï¿½ puedes mostrar el panel GameOverScreen y pausar el juego.
             gameOverScreen.SetActive(true);
             Time.timeScale = 0.0f;
+
         }
     }
+
+    public void RestartTimer()
+    {
+        timer = 0f;
+        gameOverScreen.SetActive(false);
+        Time.timeScale = 1.0f; // AsegÃºrate de restablecer la escala del tiempo
+    }
+
 }
