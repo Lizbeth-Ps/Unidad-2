@@ -19,6 +19,8 @@ public class DatabaseMongo : MonoBehaviour
 
     public void SaveScore(string playerName, int playerScore)
     {
+      
+
         var scoreDocument = new BsonDocument
         {
             { "playerName", playerName },
