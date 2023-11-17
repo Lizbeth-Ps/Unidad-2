@@ -42,9 +42,24 @@ public class Diamond : MonoBehaviour
                 DatabaseMongo databaseMongo = FindObjectOfType<DatabaseMongo>();
                 if (databaseMongo != null)
                 {
-                    string playerName = "PlayerName"; // Reemplaza con el nombre del jugador o algún identificador único
-                    databaseMongo.SaveScore(playerName, scoreManager.GetPlayerScore());
+                    //string playerName = "PlayerName"; // Reemplaza con el nombre del jugador o algún identificador único
+                    //databaseMongo.SaveScore(playerName, scoreManager.GetPlayerScore());
+
+                    // Obtener el nombre del jugador desde MenuManager
+                    string playerName = MenuManager.nombreJugador;
+
+                    // Asegúrate de que el nombre del jugador no sea nulo o vacío antes de guardarlo
+                    if (!string.IsNullOrEmpty(playerName))
+                    {
+                        int playerScore = scoreManager.GetPlayerScore();
+                        databaseMongo.SaveScore(playerName, playerScore);
+                    }
+                    else
+                    {
+                        Debug.LogError("El nombre del jugador es nulo o vacío.");
+                    }
                 }
+            
             }
             gameObject.SetActive(false);
         }

@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public class MenuManager : MonoBehaviour
 {
+    // variable estática para almacenar el nombre del jugador
+    public static string nombreJugador;
+
     [Header("Reglas")]
      [Header("Panels")]
 
@@ -24,9 +27,17 @@ public class MenuManager : MonoBehaviour
     public GameObject buttonAceptar;
 
     //COMENZAR JUEGO 
-    public void ComenzarJuego(){
-        
-        PlayerPrefs.SetString("nombre1", inputText.text);
+    //public void ComenzarJuego()
+    //{
+
+    //    PlayerPrefs.SetString("nombre1", inputText.text);
+    //    SceneManager.LoadScene("Nivel2");
+    //}
+    public void comenzarjuego()
+    {
+        // almacena el nombre del jugador en la variable estática
+        nombreJugador = inputText.text;
+        PlayerPrefs.SetString("nombre1", nombreJugador);
         SceneManager.LoadScene("Nivel2");
     }
 
