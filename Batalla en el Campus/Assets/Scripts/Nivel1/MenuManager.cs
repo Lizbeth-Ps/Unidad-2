@@ -17,6 +17,7 @@ public class MenuManager : MonoBehaviour
     public GameObject ordenesPanel;
     public GameObject historiaPanel;
     public GameObject panelNombre;
+    public GameObject panelMejorPuntuacion;
 
     //INPUT NOMBRE 
     public InputField inputText;
@@ -42,11 +43,14 @@ public class MenuManager : MonoBehaviour
     }
 
     public void OpenPanel(GameObject panel){
-        panelMenu.SetActive(false);
-        reglasPanel.SetActive(false);
-        ordenesPanel.SetActive(false);
+       panelMenu.SetActive(false);
+       reglasPanel.SetActive(false);
+       ordenesPanel.SetActive(false);
        historiaPanel.SetActive(false);
        panelNombre.SetActive(false);
+       panelMejorPuntuacion.SetActive(false);
+
+
 
         panel.SetActive(true);
     }

@@ -28,6 +28,20 @@ public class Diamond : MonoBehaviour
         else if (objectName == "Tijeras") objectScore = 80;
         else if (objectName == "NotasAmarillas") objectScore = 55;
         else if (objectName == "NotasAzules") objectScore = 60;
+        else if (objectName == "Sticky_note_blue") objectScore = 100;
+        else if (objectName == "Eraser") objectScore = 100;
+        else if (objectName == "Hole_punch") objectScore = 100;
+        else if (objectName == "Sticky_note_yellow") objectScore = 100;
+        else if (objectName == "Sticky_note_green") objectScore = 100;
+        else if (objectName == "Hole_punch") objectScore = 100;
+        
+
+
+
+
+
+
+
 
     }
 
