@@ -71,7 +71,7 @@ public class Diamond : MonoBehaviour
                 }
             
             }
-            //gameObject.SetActive(false);
+            gameObject.SetActive(false);
         }
     }
 }
