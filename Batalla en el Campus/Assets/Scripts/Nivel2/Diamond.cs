@@ -7,24 +7,34 @@ public class Diamond : MonoBehaviour
     public string objectName; // Asigna el nombre del objeto aquí.
     private int objectScore = 0; // Inicializa el valor en puntos en 0;
 
+
+    private PlayerInventory playerInventory;
+    private ScoreManager scoreManager;
+    private InventoryUI inventoryUI;
+    private DatabaseMongo databaseMongo;
+
     private void Start()
     {
 
+        // Asignar las referencias directas en el método Start.
+        playerInventory = FindObjectOfType<PlayerInventory>();
+        scoreManager = FindObjectOfType<ScoreManager>();
+        inventoryUI = FindObjectOfType<InventoryUI>();
+        databaseMongo = FindObjectOfType<DatabaseMongo>();
 
-
-        // Agrega los nombres de los objetos y sus respectivos valores en puntos.
+        // Agregar nombres y valores de objetos.
         if (objectName == "Calculator") objectScore = 30;
         else if (objectName == "Borrador") objectScore = 50;
         else if (objectName == "Tijeras") objectScore = 80;
         else if (objectName == "NotasAmarillas") objectScore = 55;
         else if (objectName == "NotasAzules") objectScore = 60;
-        // Puedes agregar más objetos y sus puntajes según sea necesario.
-        Debug.Log("Diamond Start() is called. ObjectName: " + objectName);
+
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
+        //PlayerInventory playerInventory = other.GetComponent<PlayerInventory>();
+         
 
         if (playerInventory != null)
         {
@@ -61,7 +71,7 @@ public class Diamond : MonoBehaviour
                 }
             
             }
-            gameObject.SetActive(false);
+            //gameObject.SetActive(false);
         }
     }
 }
