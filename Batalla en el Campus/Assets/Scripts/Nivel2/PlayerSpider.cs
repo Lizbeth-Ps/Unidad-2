@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerSpider : MonoBehaviour
 {
     public float velocidad = 2f;
-    public float distanciaLimite = 5f;
+    public float distanciaLimite = 20f;
     public float tiempoDeCambioDeDireccion = 2f;
 
     private Vector3 posicionInicial;
