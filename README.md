@@ -7,7 +7,8 @@
 - Clasifiacion T. Adolescentes y adultos.
 - Motor de Juego: 3D
 
-**Aventura UTNG** es un emocionante videojuego que sumerge a los jugadores en una experiencia única, llevándolos a través de un desafiante recorrido por el entorno de una universidad llena de sorpresas y obstáculos. El juego se desarrolla en niveles que exploran la travesía de un personaje principal llamado Samantha, quien se embarca en una misión desde la entrada de la universidad hasta el edificio F, pero con un giro intrigante.
+**Aventura UTNG** 
+Es un emocionante videojuego que sumerge a los jugadores en una experiencia única, llevándolos a través de un desafiante recorrido por el entorno de una universidad llena de sorpresas y obstáculos. El juego se desarrolla en niveles que exploran la travesía de un personaje principal llamado Samantha, quien se embarca en una misión desde la entrada de la universidad hasta el edificio F, pero con un giro intrigante.
 
 En este capítulo del juego, los jugadores enfrentarán nuevos desafíos, ya que Samantha se adentra en un nivel más complejo. Ahora, además de llegar a su destino en un tiempo limitado, deberá recolectar objetos estratégicamente ubicados en diferentes puntos clave del campus. Sin embargo, no será tan sencillo, ya que en su recorrido se topará con obstáculos inesperados.
 
@@ -15,7 +16,7 @@ Los jugadores deberán planificar cuidadosamente la ruta de Samantha, superar lo
 
 Prepárate para sumergirte en una experiencia llena de intriga, estrategia y acción en "Aventura UTNG", donde cada decisión cuenta y cada obstáculo es una oportunidad para demostrar tus habilidades de juego. ¡Que comience la Aventura en el campus!
 
-**Historia**
+## Historia
 Samanta, una estudiante universitaria con un horario apretado, se encontró en una situación complicada. Había perdido sus útiles escolares justo antes de una importante clase en el edificio F, y el tiempo no estaba de su lado. Con determinación, se apresuró hacia la entrada del campus, tratando de recordar dónde había dejado sus cosas.
 El reloj avanzaba implacablemente, y Samanta sabía que cada segundo contaba. Después de buscar frenéticamente en su mochila, se dio cuenta de que sus útiles no estaban allí. Con el corazón latiendo rápido, decidió que su única esperanza era recorrer la universidad para recolectar sus objetos extraviados.
 Así que Samanta emprendió su aventura de buscar sus útiles escolares y lo necesario para entrar a su clase pasando por los rincones de la Universidad sin excepción el CGTI pudiendo ser ahí donde los perdió. Lo que Samanta no sabe es que habrá obstáculos y enemigos malos que le harán perder vida y podría ser que no llegue a clase.
