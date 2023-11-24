@@ -4,35 +4,62 @@ using UnityEngine;
 
 public class AudioPersistente : MonoBehaviour
 {
+    private static AudioPersistente instance;
+    private AudioSource audioSource;
 
-     private static AudioPersistente instance;
-    // Start is called before the first frame update
-    
-     void Awake()
+    public AudioClip sonidoInicio;
+    public AudioClip sonidoNivel;
+    public AudioClip sonidoNivel2;
+
+    void Awake()
     {
-        // Verifica si ya existe una instancia del objeto persistente
         if (instance == null)
         {
-            // Si no hay instancia, haz que este objeto sea la instancia persistente
             instance = this;
             DontDestroyOnLoad(gameObject);
+            audioSource = GetComponent<AudioSource>();
         }
         else
         {
-            // Si ya hay una instancia, destruye este objeto para evitar duplicados
             Destroy(gameObject);
         }
     }
-    
+
     void Start()
     {
-        
+        // Reproduce el sonido de inicio al comenzar
+        ReproducirSonidoInicio();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void ReproducirSonidoInicio()
     {
-        
+        audioSource.clip = sonidoInicio;
+        audioSource.Play();
+    }
+
+    public void ReproducirSonidoNivel()
+    {
+        audioSource.clip = sonidoNivel;
+        audioSource.Play();
+    }
+
+    public void ReproducirSonidoNivel2()
+    {
+        audioSource.clip = sonidoNivel2;
+        audioSource.Play();
+    }
+
+    public void DetenerSonido()
+    {
+        audioSource.Stop();
+    }
+
+    // Nuevo método para reiniciar el audio
+    public void ReiniciarSonido()
+    {
+        // Detén el sonido antes de reiniciar
+        DetenerSonido();
+        // Reproduce el sonido de inicio después de detenerlo
+        ReproducirSonidoInicio();
     }
 }
-

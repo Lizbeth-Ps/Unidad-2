@@ -18,7 +18,5 @@ public class EfectoSonido : MonoBehaviour
             audioSource.Play();
         
         }
-    }
-        
-       
+    }       
 }

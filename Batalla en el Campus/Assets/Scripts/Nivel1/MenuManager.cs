@@ -39,7 +39,7 @@ public class MenuManager : MonoBehaviour
         // almacena el nombre del jugador en la variable estática
         nombreJugador = inputText.text;
         PlayerPrefs.SetString("nombre1", nombreJugador);
-        SceneManager.LoadScene("Nivel2");
+        SceneManager.LoadScene("Nivel1");
     }
 
     public void OpenPanel(GameObject panel){

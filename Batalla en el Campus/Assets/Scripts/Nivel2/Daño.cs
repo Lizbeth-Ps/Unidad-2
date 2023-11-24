@@ -5,22 +5,12 @@ using UnityEngine;
 public class Daño : MonoBehaviour
 {
     public BarraVida barraVida;
-    public float daño = 2.0f;
+    public float daño = 10.0f;
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
-
-    //void Update()
-    //{
-    //    if (Input.GetMouseButtonDown(0))
-    //    {
-    //        barraVida.vidaActual -= daño;
-
-    //    }
-    //}
 
     // Se llama cuando otro collider entra en contacto con este collider (trigger)
     void OnTriggerEnter(Collider other)
