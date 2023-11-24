@@ -23,7 +23,7 @@ Así que Samanta emprendió su aventura de buscar sus útiles escolares y lo nec
 
 # NIVEL 1: AVENTURA DESPACIO
 ------------
-![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/MenuNivel1.jpg?raw=true)
+![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/Nivel1.png?raw=true)
 
 # NIVEL 2: AVENTURA INESPERADA
 ![Logo de Unity](https://github.com/Lizbeth-Ps/Imagenes/blob/main/Nivel2.png?raw=true)
